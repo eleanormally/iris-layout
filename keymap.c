@@ -36,11 +36,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_LCBR, KC_NO,                              KC_NO,   KC_RCBR, KC_NO,   KC_NO,   KC_NO,   KC_NO,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_LPRN, KC_PPLS,                            KC_MINS, KC_RPRN, KC_ASTR, KC_NO,   KC_NO,   KC_NO,
+     KC_LCTL,   KC_NO,   KC_NO,   KC_NO,   KC_LPRN, KC_PPLS,                            KC_MINS, KC_RPRN, KC_ASTR, KC_NO,   KC_NO,   KC_NO,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_LBRC, KC_EQL,  KC_NO,            KC_NO,   KC_UNDS, KC_RBRC, KC_NO,   KC_NO,   KC_NO,   KC_NO,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘ 
-                                    KC_NO,   KC_NO,   KC_NO,                     KC_NO,    KC_NO,   KC_NO
+                                    KC_TRNS,   KC_TRNS,   KC_TRNS,                     KC_TRNS,    KC_TRNS,   KC_TRNS
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
     [_RAISE] = LAYOUT(
@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_NO,   KC_NO,   KC_NO,   KC_UP,   KC_VOLU,  KC_BRIU,                           KC_NO,   KC_NO,   KC_P7,   KC_P8,   KC_P9,   KC_NO,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_NO,   KC_NO,   KC_LEFT, KC_DOWN, KC_RGHT, KC_BRID,                            KC_NO,   KC_P0,   KC_P4,   KC_P5,   KC_P6,   KC_NO,
+     KC_LCTL,   KC_NO,   KC_LEFT, KC_DOWN, KC_RGHT, KC_BRID,                            KC_NO,   KC_P0,   KC_P4,   KC_P5,   KC_P6,   KC_NO,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_MPLY, KC_NO,   KC_NO,            KC_NO,   KC_NO,   KC_NO,   KC_P1,   KC_P2,   KC_P3,   KC_NO,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
